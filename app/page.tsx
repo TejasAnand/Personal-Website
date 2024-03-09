@@ -6,8 +6,14 @@ import { ModeToggle } from "@/components/ui/toggleTheme";
 
 export default function Home() {
   return (
-    <div className="text-end">
-      <ModeToggle></ModeToggle>
-    </div>
+    <main>
+      <div className="text-end">
+        <ModeToggle></ModeToggle>
+      </div>
+
+      <nav className="navbar">
+        <Nav></Nav>
+      </nav>
+    </main>
   );
 }
