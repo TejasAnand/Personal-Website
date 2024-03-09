@@ -54,9 +54,11 @@ export default function Home() {
         </div>
         <div className="col-right">
           <div className="line">
-            <div className="title">Sun Life Financial</div>
+            <div className="title">
+              <b>Sun Life</b>
+            </div>
           </div>
-          <div className="description">Cloud Engineering</div>
+          <div className="text-stone-400 description">Cloud Engineering</div>
         </div>
       </div>
     </main>
