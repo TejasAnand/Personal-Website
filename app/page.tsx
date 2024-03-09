@@ -5,5 +5,9 @@ import Nav from "@/components/ui/nav";
 import { ModeToggle } from "@/components/ui/toggleTheme";
 
 export default function Home() {
-  return <ModeToggle></ModeToggle>;
+  return (
+    <div className="text-end">
+      <ModeToggle></ModeToggle>
+    </div>
+  );
 }
