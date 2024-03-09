@@ -3,7 +3,11 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import Nav from "@/components/ui/nav";
 import { ModeToggle } from "@/components/ui/toggleTheme";
+import ExperienceComponent from "@/components/ui/experience";
 import sunLifeIcon from "@/public/trace.svg";
+import protoIcon from "@/public/proto2.svg";
+import avanadeIcon from "@/public/avanade.svg";
+import uwaterlooIcon from "@/public/uwaterloo.svg";
 
 export default function Home() {
   return (
@@ -39,27 +43,57 @@ export default function Home() {
           <br className="dynamic-breakpoint"></br>
           <p>You can find me on caacaca ccacaca cacaca caca</p>
         </div>
-        <div className="experience my-16 text-2xl">Experience</div>
-        <div className="rows"></div>
-        <div className="icon">
-          <a href="https://sunlife.com/">
-            <Image
-              className="sunlife"
-              src={sunLifeIcon}
-              alt="Sun Life Financial"
-              width={64}
-              height={64}
-            />
-          </a>
+        <div className="experience font-semibold my-16 text-2xl">
+          Experience
         </div>
-        <div className="col-right">
-          <div className="line">
-            <div className="title">
-              <b>Sun Life</b>
-            </div>
-          </div>
-          <div className="text-stone-400 description">Cloud Engineering</div>
-        </div>
+        <ExperienceComponent
+          imgName="logoStyle"
+          link="https://www.sunlife.com/en/"
+          iconName={sunLifeIcon}
+          alt="Sun Life"
+          width={80}
+          height={80}
+          title="Sun Life"
+          description="Cloud Engineering"
+          iconStyle="icon"
+        />
+        <ExperienceComponent
+          imgName="logoStyle"
+          link="https://www.proto.cx/"
+          iconName={protoIcon}
+          alt="Proto"
+          width={48}
+          height={48}
+          title="Proto"
+          description="Full Stack Developer"
+          iconStyle="icon2"
+        />
+        <ExperienceComponent
+          imgName="logoStyle"
+          link="https://www.avanade.com/en-ca"
+          iconName={avanadeIcon}
+          alt="Avanade"
+          width={48}
+          height={48}
+          title="Avanade"
+          description="Devops Engineer"
+          iconStyle="icon3"
+        />
+
+        <br></br>
+        <br></br>
+
+        <ExperienceComponent
+          imgName="logoStyle"
+          link="https://uwaterloo.ca/"
+          iconName={uwaterlooIcon}
+          alt="Avanade"
+          width={48}
+          height={48}
+          title="University of Waterloo"
+          description="Computer Engineering, Bachelors"
+          iconStyle="icon3"
+        />
       </div>
     </main>
   );

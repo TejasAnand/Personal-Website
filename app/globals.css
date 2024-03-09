@@ -138,18 +138,20 @@ a:hover{
 
 .rows{
   display:flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content:flex-start;
+  align-items:flex-start;
   margin-top: -5%;
+  margin-top:4%;
+}
 
+.experience{
+  margin-bottom:1%;
 }
 
 .col-right{
   display:flex;
   flex-direction:column;
-  margin-left: 10%;
-  margin-top: -7%;
-
+  margin-left: 3%;
 }
 
 .icon{
@@ -157,18 +159,52 @@ a:hover{
   background-color: rgba(9, 108, 228, 0.478);
   width:48px;
   height:48px;
-  border-radius:8px;
+  border-radius:8px;  
   display:flex;
   justify-content: center;
   align-items: center;
   transition: background-color 0.15s ease-in-out;
 }
 
-.icon .sunlife{
+.icon:hover{
+  background-color: rgba(9, 108, 228, 0.678);
+
+}
+
+.icon2:hover{
+  background-color: rgb(163 163 163);
+}
+
+.icon3:hover{
+  background-color: rgba(231, 228, 228, 0.938);
+}
+
+.icon2{
+  background-color: white;
+  width:48px;
+  height:48px;
+  border-radius:8px;  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.icon3{
+  background-color: white;
+  width:48px;
+  height:48px;
+  border-radius:8px;  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.icon .logoStyle .logoStyle2{
   max-height: 150%;
   max-width:auto;
 }
-
 .line{
   margin-top:-1%;
 }
