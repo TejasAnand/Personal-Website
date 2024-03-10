@@ -120,7 +120,7 @@ p{
 }
 
 a{
-  text-decoration:underline;
+  text-decoration:none;
   text-decoration-color:rgba(255, 166, 0, 0.702);
 
 
@@ -221,4 +221,52 @@ img{
 
 .projectHeading{
   margin-bottom:5%;
+}
+
+.projectCard{
+  width:250px;
+  height:280px;
+  background-color:rgb(209, 206, 206);
+  border-radius:10px;
+}
+
+.projectCard:hover{
+  background-color:white;
+}
+
+.otherProjects{
+  /* display: flex;
+  flex-direction: row;
+  justify-content:space-between; */
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  row-gap: 1.2rem;
+  column-gap: 5.4rem;
+
+}
+
+.otherStart{
+  margin-top:9%;
+}
+
+.otherProject{
+  max-width:250px;
+
+}
+
+.projectDescription{
+  margin-top:4%;
+
+}
+.projectLink{
+  text-decoration: none;
+}
+
+.projectLink:hover{
+  padding: 4px 8px;
+  padding-top:5px;
+  margin-left:-8px;
+  border-radius:4px;
+  background:#626262;
+  transition: background 0.1s ease-in-out; 
 }

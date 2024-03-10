@@ -8,7 +8,8 @@ import sunLifeIcon from "@/public/trace.svg";
 import protoIcon from "@/public/proto2.svg";
 import avanadeIcon from "@/public/avanade.svg";
 import uwaterlooIcon from "@/public/uwaterloo.svg";
-import ProjectComponent from "@/components/ui/projects";
+import { ProjectCardComponent } from "@/components/ui/projects";
+import { OtherProjectComponent } from "@/components/ui/projects";
 
 export default function Home() {
   return (
@@ -99,8 +100,36 @@ export default function Home() {
           Projects
         </div>
         <div className="allProjects">
-          <ProjectComponent></ProjectComponent>
-          <ProjectComponent></ProjectComponent>
+          <ProjectCardComponent></ProjectCardComponent>
+          <ProjectCardComponent></ProjectCardComponent>
+        </div>
+        <div className="otherStart">
+          <div className="otherProjects">
+            <OtherProjectComponent
+              name="Colorcal"
+              url=""
+              description="A web-based Minecraft clone, built on WebGL"
+            ></OtherProjectComponent>
+            <OtherProjectComponent
+              name="Prepresent"
+              url=""
+              description="A web-based Minecraft clone, built on WebGL"
+            ></OtherProjectComponent>
+            <br></br>
+          </div>
+          <div className="otherProjects">
+            <OtherProjectComponent
+              name="Colorcal"
+              url=""
+              description="A web-based Minecraft clone, built on WebGL"
+            ></OtherProjectComponent>
+            <OtherProjectComponent
+              name="Prepresent"
+              url=""
+              description="A web-based Minecraft clone, built on WebGL"
+            ></OtherProjectComponent>
+            <br></br>
+          </div>
         </div>
       </div>
     </main>
