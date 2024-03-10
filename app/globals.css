@@ -212,19 +212,13 @@ img{
   max-width:max-content;
 }
 
-.projectContainer{
-
-  width:200px;
-  height:150px;
-  margin-top:6%;
-
-  background-color: white;
-  border-radius: 8px;
-  margin-left:-10%;
+.allProjects{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.projects{
-  margin-bottom:1%;
-  display: flex;
-  margin-left:0%;
+.projectHeading{
+  margin-bottom:5%;
 }

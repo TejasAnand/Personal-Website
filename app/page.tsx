@@ -95,7 +95,13 @@ export default function Home() {
           description="Computer Engineering, Bachelors"
           iconStyle="icon3"
         />
-        <div className="projects font-semibold my-16 text-2xl">Projects</div>
+        <div className="projectHeading font-semibold my-16 text-2xl">
+          Projects
+        </div>
+        <div className="allProjects">
+          <ProjectComponent></ProjectComponent>
+          <ProjectComponent></ProjectComponent>
+        </div>
       </div>
     </main>
   );
