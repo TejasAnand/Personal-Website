@@ -213,6 +213,7 @@ img{
 }
 
 .allProjects{
+  margin-top:4%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
