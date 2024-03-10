@@ -140,7 +140,6 @@ a:hover{
   display:flex;
   justify-content:flex-start;
   align-items:flex-start;
-  margin-top: -5%;
   margin-top:4%;
 }
 
@@ -211,4 +210,21 @@ a:hover{
 
 img{
   max-width:max-content;
+}
+
+.projectContainer{
+
+  width:200px;
+  height:150px;
+  margin-top:6%;
+
+  background-color: white;
+  border-radius: 8px;
+  margin-left:-10%;
+}
+
+.projects{
+  margin-bottom:1%;
+  display: flex;
+  margin-left:0%;
 }

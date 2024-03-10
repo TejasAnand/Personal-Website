@@ -8,6 +8,7 @@ import sunLifeIcon from "@/public/trace.svg";
 import protoIcon from "@/public/proto2.svg";
 import avanadeIcon from "@/public/avanade.svg";
 import uwaterlooIcon from "@/public/uwaterloo.svg";
+import ProjectComponent from "@/components/ui/projects";
 
 export default function Home() {
   return (
@@ -94,6 +95,7 @@ export default function Home() {
           description="Computer Engineering, Bachelors"
           iconStyle="icon3"
         />
+        <div className="projects font-semibold my-16 text-2xl">Projects</div>
       </div>
     </main>
   );
