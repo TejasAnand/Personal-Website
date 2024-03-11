@@ -237,6 +237,11 @@ img{
   background-size: contain;
   background-repeat: no-repeat;
 }
+.pagal:hover{
+  webkit-filter:blur(2px);
+  filter:blur(2px);
+  transition: 0.2s ease-in-out;
+}
 .prepresent{
   width:250px;
   height:280px;
@@ -295,3 +300,31 @@ img{
   background:#626262;
   transition: background 0.1s ease-in-out; 
 }
+
+.textHidden{
+  display:none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  color:red;
+  font-weight: 600;
+}
+
+.pagal .textHidden:hover{
+  display: flex;
+
+}
+
+.colorcal:hover .textHidden{
+  display: block;
+  
+}
+.prepresent:hover .textHidden{
+  display: block;
+}
+
+#map { height: 180px; }

@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import colorcalIcon from "@/public/colorcalfinal.svg";
+import { useHover } from "@uidotdev/usehooks";
+import * as React from "react";
+import { useState } from "react";
 
 interface ProjectCardComponentProps {
   name: string;
@@ -15,8 +18,15 @@ export function ProjectCardComponent({
   url,
   icon,
 }: ProjectCardComponentProps) {
+  const [hidden, setHidden] = useState(true);
   return (
-    <div className={name} style={{ position: "relative" }}>
+    <div
+      onMouseEnter={() => setHidden(false)}
+      onMouseLeave={() => setHidden(true)}
+      className={name}
+      style={{ position: "relative" }}
+    >
+      {/* {hidden ? null : <h1>Hovering</h1>} */}
       <div className="descriptionStyle"></div>
       <Link href={url}>
         <Image
@@ -25,30 +35,19 @@ export function ProjectCardComponent({
           alt={name}
           height={280}
           width={250}
-        />
-        <p
-          className="textHidden"
           style={{
-            display: "none",
-            position: "absolute",
-            bottom: 0,
-            left: 0,
-            right: 0,
-            textAlign: "center",
-            color: "white",
-            margin: "auto",
-            padding: "10px",
+            filter: hidden ? "none" : "blur(3px)",
+            transition: "filter 0.5s ease-in-out",
           }}
-        >
-          REDISAFE<br></br> Modern app for monitoring your health data offline
-          and prevent contracting COVID.
+        />
+        <p className="textHidden">
+          Modern app for monitoring your health data offline and prevent
+          contracting COVID.
         </p>
       </Link>
     </div>
   );
 }
-
-const projectDiv = document.getElementById("colorcal");
 
 interface OtherProjectComponentProps {
   name: string;

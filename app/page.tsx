@@ -12,6 +12,7 @@ import { ProjectCardComponent } from "@/components/ui/projects";
 import { OtherProjectComponent } from "@/components/ui/projects";
 import colorcalIcon from "@/public/colorcalfinal.svg";
 import prepresentIcon from "@/public/prepresent.svg";
+import NowMap from "@/components/ui/nowmap";
 
 export default function Home() {
   return (
@@ -118,12 +119,12 @@ export default function Home() {
         <div className="otherStart">
           <div className="otherProjects">
             <OtherProjectComponent
-              name="Colorcal"
+              name="Eco-classifier"
               url=""
               description="A web-based Minecraft clone, built on WebGL"
             ></OtherProjectComponent>
             <OtherProjectComponent
-              name="Prepresent"
+              name="GrapesJS Plugin"
               url=""
               description="A web-based Minecraft clone, built on WebGL"
             ></OtherProjectComponent>
@@ -131,12 +132,12 @@ export default function Home() {
           </div>
           <div className="otherProjects">
             <OtherProjectComponent
-              name="Colorcal"
+              name="Pashu"
               url=""
               description="A web-based Minecraft clone, built on WebGL"
             ></OtherProjectComponent>
             <OtherProjectComponent
-              name="Prepresent"
+              name="Traviz"
               url=""
               description="A web-based Minecraft clone, built on WebGL"
             ></OtherProjectComponent>
@@ -144,6 +145,7 @@ export default function Home() {
           </div>
         </div>
         <div className="projectHeading font-semibold my-16 text-2xl">Now</div>
+        <NowMap></NowMap>
       </div>
     </main>
   );
