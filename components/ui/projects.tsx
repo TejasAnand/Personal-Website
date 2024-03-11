@@ -1,8 +1,54 @@
 import Image from "next/image";
+import Link from "next/link";
+import colorcalIcon from "@/public/colorcalfinal.svg";
 
-export function ProjectCardComponent() {
-  return <div className="projectCard"></div>;
+interface ProjectCardComponentProps {
+  name: string;
+  description: string;
+  url: string;
+  icon: string;
 }
+
+export function ProjectCardComponent({
+  name,
+  description,
+  url,
+  icon,
+}: ProjectCardComponentProps) {
+  return (
+    <div className={name} style={{ position: "relative" }}>
+      <div className="descriptionStyle"></div>
+      <Link href={url}>
+        <Image
+          className="pagal"
+          src={icon}
+          alt={name}
+          height={280}
+          width={250}
+        />
+        <p
+          className="textHidden"
+          style={{
+            display: "none",
+            position: "absolute",
+            bottom: 0,
+            left: 0,
+            right: 0,
+            textAlign: "center",
+            color: "white",
+            margin: "auto",
+            padding: "10px",
+          }}
+        >
+          REDISAFE<br></br> Modern app for monitoring your health data offline
+          and prevent contracting COVID.
+        </p>
+      </Link>
+    </div>
+  );
+}
+
+const projectDiv = document.getElementById("colorcal");
 
 interface OtherProjectComponentProps {
   name: string;

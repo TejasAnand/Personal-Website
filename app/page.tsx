@@ -10,6 +10,8 @@ import avanadeIcon from "@/public/avanade.svg";
 import uwaterlooIcon from "@/public/uwaterloo.svg";
 import { ProjectCardComponent } from "@/components/ui/projects";
 import { OtherProjectComponent } from "@/components/ui/projects";
+import colorcalIcon from "@/public/colorcalfinal.svg";
+import prepresentIcon from "@/public/prepresent.svg";
 
 export default function Home() {
   return (
@@ -100,8 +102,18 @@ export default function Home() {
           Projects
         </div>
         <div className="allProjects">
-          <ProjectCardComponent></ProjectCardComponent>
-          <ProjectCardComponent></ProjectCardComponent>
+          <ProjectCardComponent
+            name="colorcal"
+            url=""
+            icon={colorcalIcon}
+            description="A web-based Minecraft clone, built on WebGL"
+          ></ProjectCardComponent>
+          <ProjectCardComponent
+            name="prepresent"
+            url=""
+            icon={prepresentIcon}
+            description="A web-based Minecraft clone, built on WebGL"
+          ></ProjectCardComponent>
         </div>
         <div className="otherStart">
           <div className="otherProjects">
@@ -131,6 +143,7 @@ export default function Home() {
             <br></br>
           </div>
         </div>
+        <div className="projectHeading font-semibold my-16 text-2xl">Now</div>
       </div>
     </main>
   );
