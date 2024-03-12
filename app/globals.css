@@ -91,6 +91,12 @@ main{
 }
 }
 
+@media only screen and (max-width: 629px) {
+  .colorcal{    
+    margin-bottom: 10%;
+  }
+}
+
 .container{
   flex:1;
   display:flex;
@@ -144,7 +150,7 @@ a:hover{
 }
 
 .experience{
-  margin-bottom:1%;
+  margin-bottom:3%;
 }
 
 .col-right{
@@ -213,7 +219,7 @@ img{
 }
 
 .allProjects{
-  margin-top:4%;
+  margin-top:6%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -221,14 +227,15 @@ img{
 }
 
 .projectHeading{
-  margin-bottom:5%;
+  margin-bottom:3%;
+  margin-top:10%;
 }
 
 .colorcal{
   width:250px;
   height:280px;
   border-radius:10px;
-  background-color: rgb(34, 95, 149);
+  background-color: rgb(228, 230, 231);
   padding:4px;
 }
 
@@ -262,6 +269,14 @@ img{
   align-items: center;
 }
 
+.nowHeading{
+  margin-top: 2%;
+  margin-bottom:5%;
+}
+.ending{
+  margin-bottom:5%;
+}
+
 
 
 .otherProjects{
@@ -275,8 +290,15 @@ img{
 
 }
 
+.leaflet-layer,
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out,
+.leaflet-control-attribution {
+  filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+}
+
 .otherStart{
-  margin-top:8%;
+  margin-top:10%;
 }
 
 .otherProject{
@@ -328,3 +350,9 @@ img{
 }
 
 #map { height: 180px; }
+
+
+.spline{
+  margin-top:10%;
+  margin-bottom:10%;
+}

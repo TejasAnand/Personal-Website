@@ -10,11 +10,23 @@ import avanadeIcon from "@/public/avanade.svg";
 import uwaterlooIcon from "@/public/uwaterloo.svg";
 import { ProjectCardComponent } from "@/components/ui/projects";
 import { OtherProjectComponent } from "@/components/ui/projects";
-import colorcalIcon from "@/public/colorcalfinal.svg";
-import prepresentIcon from "@/public/prepresent.svg";
-import NowMap from "@/components/ui/nowmap";
+import colorcalIcon from "@/public/colorcal3.svg";
+import prepresentIcon from "@/public/prepresent2.svg";
+import Spline from "@splinetool/react-spline";
+// import NowMap from "@/components/ui/nowmap";
+import dynamic from "next/dynamic";
+import { useMemo } from "react";
 
 export default function Home() {
+  const Map = useMemo(
+    () =>
+      dynamic(() => import("../components/ui/nowmap"), {
+        loading: () => <p>A map is loading</p>,
+        ssr: false,
+      }),
+    []
+  );
+
   return (
     <main>
       <div className="text-end">
@@ -144,8 +156,16 @@ export default function Home() {
             <br></br>
           </div>
         </div>
-        <div className="projectHeading font-semibold my-16 text-2xl">Now</div>
-        <NowMap></NowMap>
+        <div className="nowHeading font-semibold my-16 text-2xl">Now</div>
+        <div className="ending">
+          Settling into New York, learning to make sushi, and getting better at
+          interior design. I love meeting new people and would love to go for a
+          walk and grab coffee.
+        </div>
+        <Map></Map>
+        <div className="spline">
+          <Spline scene="https://prod.spline.design/XGp0DZbfZeK6WW5n/scene.splinecode" />
+        </div>
       </div>
     </main>
   );
