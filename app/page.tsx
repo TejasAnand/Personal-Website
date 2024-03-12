@@ -43,19 +43,20 @@ export default function Home() {
           </h1>
           <p>
             I{"'"}m a software engineer based in Waterloo, Canada.
-            <br className="dynamic-breakpoint"></br>
-            Currently, I work on the cloud operations team at{" "}
+            <br className="dynamic-breakpoint"></br>Currently, I am working on
+            the cloud operations team at{" "}
             <a className="" href="https://www.sunlife.com/en/">
               Sun Life
             </a>{" "}
-            as a cloud engineer
+            as a cloud engineering intern
           </p>
           <br className="dynamic-breakpoint"></br>
 
           <p>
-            I express myself through the art of building software and believe
-            that the tools we use should feel fun, fast, and filled with magic.
-            I am excited about the web.
+            I{"'"}ve taken an interest in the software infrastructure space. I
+            {"'"}ve had experience in building products from an AI powered no
+            code builder scratch to solutions for the cloud.
+            {/* This helps me build creative solutions and collaborate. */}
           </p>
           <br className="dynamic-breakpoint"></br>
           <p>You can find me on caacaca ccacaca cacaca caca</p>

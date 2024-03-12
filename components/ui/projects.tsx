@@ -40,10 +40,7 @@ export function ProjectCardComponent({
             transition: "filter 0.5s ease-in-out",
           }}
         />
-        <p className="textHidden">
-          Modern app for monitoring your health data offline and prevent
-          contracting COVID.
-        </p>
+        <p className="textHidden">{description}</p>
       </Link>
     </div>
   );
