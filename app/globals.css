@@ -353,6 +353,35 @@ img{
 
 
 .spline{
-  margin-top:10%;
+  margin-top:15%;
   margin-bottom:10%;
+}
+
+/* .footerContainer{
+  display:block;
+  margin-top:10%;
+  width:100%;
+  text-align:center;
+} */
+
+.footerContainer{
+  margin-bottom:2%;
+}
+
+.hrLine{
+  width:100%;
+  /* margin-top:10%; */
+  margin-bottom:2%;
+}
+
+.insta{
+  padding:10px;
+  background-color: white;
+}
+
+.socials{
+  display: flex;
+  justify-content:end;
+  align-items:center;
+  flex-direction: row;
 }

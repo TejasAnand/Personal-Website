@@ -13,6 +13,7 @@ import { OtherProjectComponent } from "@/components/ui/projects";
 import colorcalIcon from "@/public/colorcal3.svg";
 import prepresentIcon from "@/public/prepresent2.svg";
 import Spline from "@splinetool/react-spline";
+import Footer from "@/components/ui/footer";
 // import NowMap from "@/components/ui/nowmap";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
@@ -59,7 +60,10 @@ export default function Home() {
             {/* This helps me build creative solutions and collaborate. */}
           </p>
           <br className="dynamic-breakpoint"></br>
-          <p>You can find me on caacaca ccacaca cacaca caca</p>
+          <p>
+            You can react out to me at{" "}
+            <a href="mailto:tsanand@uwaterloo.ca">tsanand@uwaterloo.ca</a>
+          </p>
         </div>
         <div className="experience font-semibold my-16 text-2xl">
           Experience
@@ -132,22 +136,23 @@ export default function Home() {
         <div className="otherStart">
           <div className="otherProjects">
             <OtherProjectComponent
-              name="Eco-classifier"
-              url=""
-              description="An app to classify daily use prodoucts as safe or harmful"
-            ></OtherProjectComponent>
-            <OtherProjectComponent
               name="GrapesJS Plugin"
               url=""
               description="A Multi-page plugin for GrapesJS, a no-code builder"
             ></OtherProjectComponent>
-            <br></br>
-          </div>
-          <div className="otherProjects">
             <OtherProjectComponent
               name="Pashu"
               url=""
               description="A web-based animal shelter game, built on WebGL"
+            ></OtherProjectComponent>
+
+            <br></br>
+          </div>
+          <div className="otherProjects">
+            <OtherProjectComponent
+              name="EcoClassifer"
+              url=""
+              description="An app to classify daily use products as harmful"
             ></OtherProjectComponent>
             <OtherProjectComponent
               name="Traviz"
@@ -159,15 +164,16 @@ export default function Home() {
         </div>
         <div className="nowHeading font-semibold my-16 text-2xl">Now</div>
         <div className="ending">
-          Settling into New York, learning to make sushi, and getting better at
-          interior design. I love meeting new people and would love to go for a
-          walk and grab coffee.
+          Learning about cloud infrastructure and also working on a fullstack
+          project with a friend. Trying to increase my system design knowledge
         </div>
         <Map></Map>
         <div className="spline">
           <Spline scene="https://prod.spline.design/XGp0DZbfZeK6WW5n/scene.splinecode" />
         </div>
       </div>
+      <hr className="hrLine"></hr>
+      <Footer></Footer>
     </main>
   );
 }
