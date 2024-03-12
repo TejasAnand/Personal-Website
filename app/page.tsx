@@ -120,13 +120,13 @@ export default function Home() {
             name="colorcal"
             url=""
             icon={colorcalIcon}
-            description="A web-based Minecraft clone, built on WebGL"
+            description="Automatically color codes your google calendar events. Uses Gemini API to decide categories"
           ></ProjectCardComponent>
           <ProjectCardComponent
             name="prepresent"
             url=""
             icon={prepresentIcon}
-            description="A web-based Minecraft clone, built on WebGL"
+            description="Emotion recognition to help you present better. Uses OpenCV and Flask"
           ></ProjectCardComponent>
         </div>
         <div className="otherStart">
@@ -134,12 +134,12 @@ export default function Home() {
             <OtherProjectComponent
               name="Eco-classifier"
               url=""
-              description="A web-based Minecraft clone, built on WebGL"
+              description="An app to classify daily use prodoucts as safe or harmful"
             ></OtherProjectComponent>
             <OtherProjectComponent
               name="GrapesJS Plugin"
               url=""
-              description="A web-based Minecraft clone, built on WebGL"
+              description="A Multi-page plugin for GrapesJS, a no-code builder"
             ></OtherProjectComponent>
             <br></br>
           </div>
@@ -147,12 +147,12 @@ export default function Home() {
             <OtherProjectComponent
               name="Pashu"
               url=""
-              description="A web-based Minecraft clone, built on WebGL"
+              description="A web-based animal shelter game, built on WebGL"
             ></OtherProjectComponent>
             <OtherProjectComponent
               name="Traviz"
               url=""
-              description="A web-based Minecraft clone, built on WebGL"
+              description="A web-based animal shelter game, built on WebGL"
             ></OtherProjectComponent>
             <br></br>
           </div>
