@@ -86,8 +86,8 @@ export default function Home() {
           link="https://www.proto.cx/"
           iconName={protoIcon}
           alt="Proto"
-          width={48}
-          height={48}
+          width={40}
+          height={40}
           title="Proto"
           description="Full Stack Developer"
           iconStyle="icon2"
@@ -97,8 +97,8 @@ export default function Home() {
           link="https://www.avanade.com/en-ca"
           iconName={avanadeIcon}
           alt="Avanade"
-          width={48}
-          height={48}
+          width={36}
+          height={36}
           title="Avanade"
           description="Devops Engineer"
           iconStyle="icon3"
@@ -118,7 +118,10 @@ export default function Home() {
           description="Computer Engineering, Bachelors"
           iconStyle="icon4"
         />
-        <div className="projectHeading font-semibold my-16 text-2xl">
+        <div
+          id="projects"
+          className="projectHeading font-semibold my-16 text-2xl"
+        >
           Projects
         </div>
         <div className="allProjects">

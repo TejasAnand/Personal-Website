@@ -23,6 +23,13 @@ export default function Nav() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
+          <Link href="#projects" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Projects
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
           <Link
             href="https://drive.google.com/file/d/1vmVPHy8rCxv6HUaeoQKfNMK_fY125Re5/view?usp=sharing"
             legacyBehavior
@@ -30,13 +37,6 @@ export default function Nav() {
           >
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Resume
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/contact" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Contact
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
