@@ -39,14 +39,14 @@ export default function Home() {
       </nav>
       <div className="container">
         <div className="intro">
-          <h1 className="header text-3xl">
+          <h1 className="header text-3xl text-violet-400 ">
             <b>Tejas Anand</b>
           </h1>
           <p>
             I{"'"}m a software engineer based in Waterloo, Canada.
             <br className="dynamic-breakpoint"></br>Currently, I am working on
             the cloud operations team at{" "}
-            <a className="" href="https://www.sunlife.com/en/">
+            <a className="underline" href="https://www.sunlife.com/en/">
               Sun Life
             </a>{" "}
             as a cloud engineering intern
@@ -62,7 +62,9 @@ export default function Home() {
           <br className="dynamic-breakpoint"></br>
           <p>
             You can react out to me at{" "}
-            <a href="mailto:tsanand@uwaterloo.ca">tsanand@uwaterloo.ca</a>
+            <a className="underline" href="mailto:tsanand@uwaterloo.ca">
+              tsanand@uwaterloo.ca
+            </a>
           </p>
         </div>
         <div className="experience font-semibold my-16 text-2xl">
@@ -122,13 +124,13 @@ export default function Home() {
         <div className="allProjects">
           <ProjectCardComponent
             name="colorcal"
-            url=""
+            url="https://github.com/alakhpc/colorcal"
             icon={colorcalIcon}
             description="Automatically color codes your google calendar events. Uses Gemini API to decide categories"
           ></ProjectCardComponent>
           <ProjectCardComponent
             name="prepresent"
-            url=""
+            url="https://drive.google.com/file/d/1xUhqLNy0WLymjsJ8kL1ZwY41hmhRFwcm/view?usp=sharing"
             icon={prepresentIcon}
             description="Emotion recognition to help you present better. Uses OpenCV and Flask"
           ></ProjectCardComponent>
@@ -137,12 +139,12 @@ export default function Home() {
           <div className="otherProjects">
             <OtherProjectComponent
               name="GrapesJS Plugin"
-              url=""
+              url="https://grapesjs-multipage-plugin.vercel.app/"
               description="A Multi-page plugin for GrapesJS, a no-code builder"
             ></OtherProjectComponent>
             <OtherProjectComponent
               name="Pashu"
-              url=""
+              url="https://anandtejas455.wixsite.com/pashu"
               description="A web-based animal shelter game, built on WebGL"
             ></OtherProjectComponent>
 
@@ -151,7 +153,7 @@ export default function Home() {
           <div className="otherProjects">
             <OtherProjectComponent
               name="EcoClassifer"
-              url=""
+              url="https://devpost.com/software/eco-classifier"
               description="An app to classify daily use products as harmful"
             ></OtherProjectComponent>
             <OtherProjectComponent

@@ -125,9 +125,10 @@ p{
   line-height: 1.75em;
 }
 
-a{
-  text-decoration:none;
-  text-decoration-color:rgba(255, 166, 0, 0.702);
+.underline{
+  text-decoration:underline;
+  text-decoration-color:rgb(167 139 250);
+  text-underline-offset: 0.2em;
 
 
   color: var(--primary);
@@ -319,7 +320,7 @@ img{
   padding-top:5px;
   margin-left:-8px;
   border-radius:4px;
-  background:#626262;
+  background:rgb(167 139 250);
   transition: background 0.1s ease-in-out; 
 }
 

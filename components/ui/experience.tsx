@@ -38,11 +38,9 @@ export default function ExperienceComponent({
       </div>
       <div className="col-right">
         <div className="line">
-          <div className="title">
-            <b>{title}</b>
-          </div>
+          <div className="font-medium  text-base title">{title}</div>
         </div>
-        <div className="text-stone-400 description">{description}</div>
+        <div className="text-gray-400 text-base description">{description}</div>
       </div>
     </div>
   );
