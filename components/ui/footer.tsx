@@ -1,5 +1,5 @@
 import Image from "next/image";
-import instagramIcon from "@/public/instagram.svg";
+import instagramIcon from "@/public/insta.png";
 import githubIcon from "@/public/github.svg";
 
 export default function Footer() {
