@@ -7,6 +7,7 @@ export default function Footer() {
   return (
     <div className="footerContainer">
       <div className="socials">
+        <h1 className="footerText">Be kind, work hard, embrace adversity</h1>
         <Image
           className="insta"
           src={instagramIcon}
