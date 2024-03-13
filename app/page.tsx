@@ -7,7 +7,7 @@ import ExperienceComponent from "@/components/ui/experience";
 import sunLifeIcon from "@/public/trace.svg";
 import protoIcon from "@/public/proto2.svg";
 import avanadeIcon from "@/public/avanade.svg";
-import uwaterlooIcon from "@/public/uwaterloo.svg";
+import uwaterlooIcon from "@/public/waterloo.svg";
 import { ProjectCardComponent } from "@/components/ui/projects";
 import { OtherProjectComponent } from "@/components/ui/projects";
 import colorcalIcon from "@/public/colorcal3.svg";
@@ -116,7 +116,7 @@ export default function Home() {
           height={48}
           title="University of Waterloo"
           description="Computer Engineering, Bachelors"
-          iconStyle="icon3"
+          iconStyle="icon4"
         />
         <div className="projectHeading font-semibold my-16 text-2xl">
           Projects

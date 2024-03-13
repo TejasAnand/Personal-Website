@@ -43,6 +43,9 @@
     --icon3-color-light: rgb(255, 255, 255);
     --icon3-color-light-hover: rgb(255, 255, 255);
 
+    --icon4-color:rgba(163, 166, 0, 0.4);
+    --icon4-color-hover:rgba(183, 186, 21, 0.4);
+
   }
  
   .dark {
@@ -73,8 +76,11 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
-    --icon-color-light: rgb(6, 72, 152);
+    --icon-color-light: rgb(6, 66, 155);
     --icon-color-light-hover: rgb(42, 133, 244);
+    --icon2-color-light: rgb(253, 253, 253);
+    --icon4-color:rgba(192, 193, 126, 0.4);
+    
   }
 }
 
@@ -218,6 +224,21 @@ a:hover{
   justify-content: center;
   align-items: center;
   transition: background-color 0.15s ease-in-out;
+}
+.icon4{
+  background-color:var(--icon4-color);
+  width:48px;
+  height:48px;
+  border-radius:8px;  
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.icon4:hover{
+  background-color: var(--icon4-color-hover);
+
 }
 
 .icon .logoStyle .logoStyle2{
