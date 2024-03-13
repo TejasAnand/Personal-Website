@@ -63,7 +63,7 @@ export default function Home() {
           </p>
           <br className="dynamic-breakpoint"></br>
           <p>
-            You can react out to me at{" "}
+            You can reach out to me at{" "}
             <a className="underline" href="mailto:tsanand@uwaterloo.ca">
               tsanand@uwaterloo.ca
             </a>
