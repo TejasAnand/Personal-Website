@@ -23,9 +23,13 @@ export default function Nav() {
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/work" legacyBehavior passHref>
+          <Link
+            href="https://drive.google.com/file/d/1vmVPHy8rCxv6HUaeoQKfNMK_fY125Re5/view?usp=sharing"
+            legacyBehavior
+            passHref
+          >
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Work
+              Resume
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
