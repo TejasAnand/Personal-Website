@@ -6,7 +6,7 @@ import { ModeToggle } from "@/components/ui/toggleTheme";
 import ExperienceComponent from "@/components/ui/experience";
 import sunLifeIcon from "@/public/trace.svg";
 import protoIcon from "@/public/proto2.svg";
-import avanadeIcon from "@/public/avanade.svg";
+import avanadeIcon from "@/public/avanadenew.svg";
 import uwaterlooIcon from "@/public/waterloo.svg";
 import { ProjectCardComponent } from "@/components/ui/projects";
 import { OtherProjectComponent } from "@/components/ui/projects";
