@@ -40,7 +40,7 @@ export function ProjectCardComponent({
             transition: "filter 0.5s ease-in-out",
           }}
         />
-        <p className="textHidden">{description}</p>
+        <p className="textHidden text-violet-300">{description}</p>
       </Link>
     </div>
   );

@@ -33,6 +33,16 @@
     --ring: 222.2 84% 4.9%;
  
     --radius: 0.5rem;
+
+    --icon-color-light-hover: rgb(255, 255, 255);
+    --icon-color-light: rgb(255, 255, 255);
+
+    --icon2-color-light: rgb(255, 255, 255);
+    --icon2-color-light-hover: rgb(255, 255, 255);
+
+    --icon3-color-light: rgb(255, 255, 255);
+    --icon3-color-light-hover: rgb(255, 255, 255);
+
   }
  
   .dark {
@@ -63,8 +73,11 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+    --icon-color-light: rgb(6, 72, 152);
+    --icon-color-light-hover: rgb(42, 133, 244);
   }
 }
+
  
 @layer base {
   * {
@@ -162,7 +175,7 @@ a:hover{
 
 .icon{
 
-  background-color: rgba(9, 108, 228, 0.478);
+  background-color: var(--icon-color-light);
   width:48px;
   height:48px;
   border-radius:8px;  
@@ -173,20 +186,20 @@ a:hover{
 }
 
 .icon:hover{
-  background-color: rgba(9, 108, 228, 0.678);
+  background-color: var(--icon-color-light-hover);
 
 }
 
 .icon2:hover{
-  background-color: rgb(163 163 163);
+  background-color: var(--icon2-color-light-hover);
 }
 
 .icon3:hover{
-  background-color: rgba(231, 228, 228, 0.938);
+  background-color: var(--icon3-color-light-hover);
 }
 
 .icon2{
-  background-color: white;
+  background-color: var(--icon2-color-light);
   width:48px;
   height:48px;
   border-radius:8px;  
@@ -197,7 +210,7 @@ a:hover{
 }
 
 .icon3{
-  background-color: white;
+  background-color:var(--icon3-color-light);
   width:48px;
   height:48px;
   border-radius:8px;  
@@ -333,12 +346,12 @@ img{
   text-align: center;
   margin: auto;
   padding: 10px;
-  color:rgb(52, 49, 49);
   font-weight: 600;
 }
 
 .pagal .textHidden:hover{
   display: flex;
+
 
 }
 

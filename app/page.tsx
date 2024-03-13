@@ -167,7 +167,7 @@ export default function Home() {
         <div className="nowHeading font-semibold my-16 text-2xl">Now</div>
         <div className="ending">
           Learning about cloud infrastructure and also working on a fullstack
-          project with a friend. Trying to increase my system design knowledge
+          project. Trying to increase my system design knowledge
         </div>
         <Map></Map>
         <div className="spline">
