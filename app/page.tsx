@@ -57,8 +57,8 @@ export default function Home() {
 
           <p>
             I{"'"}ve taken an interest in the software infrastructure space. I
-            {"'"}ve had experience in building products from an AI powered no
-            code builder scratch to solutions for the cloud.
+            {"'"}ve had experience in building products all the way from an AI
+            powered no code builder to solutions for the cloud.
             {/* This helps me build creative solutions and collaborate. */}
           </p>
           <br className="dynamic-breakpoint"></br>
