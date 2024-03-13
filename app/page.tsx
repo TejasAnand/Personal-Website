@@ -47,8 +47,7 @@ export default function Home() {
           </h1>
           <p>
             I{"'"}m a software engineer based in Waterloo, Canada.
-            <br className="dynamic-breakpoint"></br>Currently, I am working on
-            the cloud operations team at{" "}
+            <br></br>Currently, I am working on the cloud operations team at{" "}
             <a className="underline" href="https://www.sunlife.com/en/">
               Sun Life
             </a>{" "}
