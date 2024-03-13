@@ -26,7 +26,7 @@ export default function ExperienceComponent({
   return (
     <div className="rows">
       <div className={iconStyle}>
-        <a href={link}>
+        <a rel="noopener noreferrer" target="_blank" href={link}>
           <Image
             className={imgName}
             src={iconName}

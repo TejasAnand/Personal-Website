@@ -48,7 +48,12 @@ export default function Home() {
           <p>
             I{"'"}m a software engineer based in Waterloo, Canada.
             <br></br>Currently, I am working on the cloud operations team at{" "}
-            <a className="underline" href="https://www.sunlife.com/en/">
+            <a
+              className="underline"
+              rel="noopener noreferrer"
+              target="_blank"
+              href="https://www.sunlife.com/en/"
+            >
               Sun Life
             </a>{" "}
             as a cloud engineering intern
@@ -64,7 +69,12 @@ export default function Home() {
           <br className="dynamic-breakpoint"></br>
           <p>
             You can reach out to me at{" "}
-            <a className="underline" href="mailto:tsanand@uwaterloo.ca">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+              href="mailto:tsanand@uwaterloo.ca"
+            >
               tsanand@uwaterloo.ca
             </a>
           </p>

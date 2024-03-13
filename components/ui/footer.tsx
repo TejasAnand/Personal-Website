@@ -8,7 +8,11 @@ export default function Footer() {
     <div className="footerContainer">
       <h1 className="footerText">Be kind, work hard, embrace adversity</h1>
       <div className="socials">
-        <a href="https://www.instagram.com/tejasanand_/">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://www.instagram.com/tejasanand_/"
+        >
           <Image
             className="insta"
             src={instagramIcon}
@@ -17,7 +21,11 @@ export default function Footer() {
             height={96}
           ></Image>
         </a>
-        <a href="https://github.com/tejasanand">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://github.com/tejasanand"
+        >
           <Image
             className="insta"
             src={githubIcon}
@@ -26,7 +34,11 @@ export default function Footer() {
             height={64}
           ></Image>
         </a>
-        <a href="mailto:tsanand@uwaterloo.ca">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="mailto:tsanand@uwaterloo.ca"
+        >
           <Image
             className="insta"
             src={mailIcon}

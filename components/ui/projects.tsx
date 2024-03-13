@@ -28,7 +28,7 @@ export function ProjectCardComponent({
     >
       {/* {hidden ? null : <h1>Hovering</h1>} */}
       <div className="descriptionStyle"></div>
-      <Link href={url}>
+      <Link rel="noopener noreferrer" target="_blank" href={url}>
         <Image
           className="pagal"
           src={icon}
@@ -60,7 +60,12 @@ export function OtherProjectComponent({
   return (
     <div className="otherProject">
       <div className="font-semibold text-lg projectName">
-        <a className="projectLink" href={url}>
+        <a
+          className="projectLink"
+          rel="noopener noreferrer"
+          target="_blank"
+          href={url}
+        >
           {name}
         </a>
       </div>
