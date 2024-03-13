@@ -374,13 +374,22 @@ img{
   margin-bottom:2%;
 }
 
+
+
 .insta{
+
+  width:30px;
+  height:30px;
+  
+  row-gap: 1rem;
 
 }
 
 .socials{
   display: flex;
-  justify-content:end;
-  align-items:center;
   flex-direction: row;
+  justify-content: end;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-right:25%;
 }
