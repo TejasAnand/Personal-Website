@@ -6,8 +6,8 @@ import mailIcon from "@/public/mail.svg";
 export default function Footer() {
   return (
     <div className="footerContainer">
+      <h1 className="footerText">Be kind, work hard, embrace adversity</h1>
       <div className="socials">
-        <h1 className="footerText">Be kind, work hard, embrace adversity</h1>
         <a href="https://www.instagram.com/tejasanand_/">
           <Image
             className="insta"

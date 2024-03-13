@@ -17,6 +17,9 @@ import Footer from "@/components/ui/footer";
 // import NowMap from "@/components/ui/nowmap";
 import dynamic from "next/dynamic";
 import { useMemo } from "react";
+import instagramIcon from "@/public/instagram.svg";
+import githubIcon from "@/public/github.svg";
+import mailIcon from "@/public/mail.svg";
 
 export default function Home() {
   const Map = useMemo(
@@ -177,8 +180,44 @@ export default function Home() {
           <Spline scene="https://prod.spline.design/XGp0DZbfZeK6WW5n/scene.splinecode" />
         </div>
       </div>
-      <hr className="hrLine"></hr>
-      <Footer></Footer>
+      <div className="footer">
+        <div className="container">
+          <div className="row content">
+            <div className="footer-content">
+              <span>Be kind, work hard, embrace adversity</span>
+              <div className="socials2">
+                <a href="https://www.instagram.com/tejasanand_/">
+                  <Image
+                    className="insta"
+                    src={instagramIcon}
+                    alt="instagram"
+                    width={96}
+                    height={96}
+                  ></Image>
+                </a>
+                <a href="https://github.com/tejasanand">
+                  <Image
+                    className="insta"
+                    src={githubIcon}
+                    alt="GitHub"
+                    width={64}
+                    height={64}
+                  ></Image>
+                </a>
+                <a href="mailto:tsanand@uwaterloo.ca">
+                  <Image
+                    className="insta"
+                    src={mailIcon}
+                    alt="Email"
+                    width={64}
+                    height={64}
+                  ></Image>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
