@@ -19,6 +19,12 @@ import sqlSvg from "@/public/mysql.svg";
 import mongoSvg from "@/public/mongodb.svg";
 import postgresqlSvg from "@/public/postgresql.svg";
 import drizzleSvg from "@/public/drizzle.svg";
+import awsSvg from "@/public/aws.svg";
+import azureSvg from "@/public/azure.svg";
+import gitSvg from "@/public/git.svg";
+import vercelSvg from "@/public/vercel.svg";
+import linuxSvg from "@/public/linux.svg";
+import openai from "@/public/openai.svg";
 
 export default function Skills() {
   return (
@@ -63,6 +69,22 @@ export default function Skills() {
             ></Image>
             <Image src={postgresqlSvg} alt="C" height={35} width={35}></Image>
             <Image src={drizzleSvg} alt="C" height={35} width={35}></Image>
+          </TableCell>
+        </TableRow>
+        <TableRow>
+          <TableCell className="font-medium">Cloud/DevOps</TableCell>
+          <TableCell className="skillBox text-right">
+            <Image src={awsSvg} alt="JavaScript" height={40} width={40}></Image>
+            <Image
+              src={azureSvg}
+              alt="Typescript"
+              height={35}
+              width={35}
+            ></Image>
+            <Image src={openai} alt="C" height={35} width={35}></Image>
+            <Image src={vercelSvg} alt="C" height={35} width={35}></Image>
+            <Image src={gitSvg} alt="C" height={35} width={35}></Image>
+            <Image src={linuxSvg} alt="C" height={35} width={35}></Image>
           </TableCell>
         </TableRow>
       </TableBody>
