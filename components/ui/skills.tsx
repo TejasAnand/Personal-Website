@@ -18,6 +18,7 @@ import perlSvg from "@/public/perl.svg";
 import sqlSvg from "@/public/mysql.svg";
 import mongoSvg from "@/public/mongodb.svg";
 import postgresqlSvg from "@/public/postgresql.svg";
+import drizzleSvg from "@/public/drizzle.svg";
 
 export default function Skills() {
   return (
@@ -61,6 +62,7 @@ export default function Skills() {
               width={35}
             ></Image>
             <Image src={postgresqlSvg} alt="C" height={35} width={35}></Image>
+            <Image src={drizzleSvg} alt="C" height={35} width={35}></Image>
           </TableCell>
         </TableRow>
       </TableBody>
