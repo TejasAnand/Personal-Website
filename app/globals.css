@@ -45,6 +45,7 @@
 
     --icon4-color:rgba(163, 166, 0, 0.4);
     --icon4-color-hover:rgba(183, 186, 21, 0.4);
+    --openai-color:rgb(255, 255, 255);
 
   }
  
@@ -80,6 +81,7 @@
     --icon-color-light-hover: rgb(17, 94, 187);
     --icon2-color-light: rgb(253, 253, 253);
     --icon4-color:rgba(192, 193, 126, 0.4);
+    --openai-color:white;
     
   }
 }
@@ -397,6 +399,11 @@ img{
   margin: auto;
   padding: 10px;
   font-weight: 600;
+}
+
+.openai{
+  fill:red;
+  filter:var(--openai-color);
 }
 
 .pagal .textHidden:hover{
