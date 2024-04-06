@@ -10,7 +10,7 @@ import {
 
 import Image from "next/image";
 
-import pythonSvg from "@/public/python.svg";
+import pythonSvg from "@/public/python2.svg";
 import javascriptSvg from "@/public/javascript.svg";
 import typescriptSvg from "@/public/typescript.svg";
 import csvg from "@/public/c.svg";
@@ -25,6 +25,7 @@ import gitSvg from "@/public/git.svg";
 import vercelSvg from "@/public/vercel.svg";
 import linuxSvg from "@/public/linux.svg";
 import openai from "@/public/openai.svg";
+import redis from "@/public/redis.svg";
 
 export default function Skills() {
   return (
@@ -40,7 +41,7 @@ export default function Skills() {
         <TableRow>
           <TableCell className="font-medium">Programming Languages</TableCell>
           <TableCell className="skillBox text-right">
-            <Image src={pythonSvg} alt="Python" height={55} width={55}></Image>
+            <Image src={pythonSvg} alt="Python" height={40} width={40}></Image>
             <Image
               src={javascriptSvg}
               alt="JavaScript"
@@ -68,6 +69,7 @@ export default function Skills() {
               width={35}
             ></Image>
             <Image src={postgresqlSvg} alt="C" height={35} width={35}></Image>
+            <Image src={redis} alt="C" height={35} width={35}></Image>
             <Image src={drizzleSvg} alt="C" height={35} width={35}></Image>
           </TableCell>
         </TableRow>
@@ -75,12 +77,12 @@ export default function Skills() {
           <TableCell className="font-medium">Cloud/DevOps</TableCell>
           <TableCell className="skillBox text-right">
             <Image src={awsSvg} alt="JavaScript" height={40} width={40}></Image>
-            <Image
+            {/* <Image
               src={azureSvg}
               alt="Typescript"
               height={35}
               width={35}
-            ></Image>
+            ></Image> */}
             <Image src={openai} alt="C" height={35} width={35}></Image>
             <Image src={vercelSvg} alt="C" height={35} width={35}></Image>
             <Image src={gitSvg} alt="C" height={35} width={35}></Image>
