@@ -8,6 +8,12 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
+
 import Image from "next/image";
 
 import pythonSvg from "@/public/python2.svg";

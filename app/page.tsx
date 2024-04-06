@@ -20,6 +20,7 @@ import { useMemo } from "react";
 import instagramIcon from "@/public/instagram.svg";
 import githubIcon from "@/public/github.svg";
 import mailIcon from "@/public/mail.svg";
+import Skills from "@/components/ui/skills";
 
 export default function Home() {
   const Map = useMemo(
@@ -179,6 +180,11 @@ export default function Home() {
             <br></br>
           </div>
         </div>
+        <div className="nowHeading font-semibold my-16 text-2xl">Skills</div>
+        <div className="skills">
+          <Skills></Skills>
+        </div>
+
         <div className="nowHeading font-semibold my-16 text-2xl">Now</div>
         <div className="ending">
           Learning about cloud infrastructure and also working on a fullstack
