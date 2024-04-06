@@ -6,7 +6,7 @@ import mailIcon from "@/public/mail.svg";
 export default function Footer() {
   return (
     <div className="footerContainer">
-      <h1 className="footerText">Be kind, work hard, embrace adversity</h1>
+      <h1 className="footerText">Stay obsessed</h1>
       <div className="socials">
         <a
           rel="noopener noreferrer"

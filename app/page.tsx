@@ -199,7 +199,7 @@ export default function Home() {
         <div className="container">
           <div className="row content">
             <div className="footer-content">
-              <span>Be kind, work hard, embrace adversity</span>
+              <span>Stay Obsessed</span>
               <div className="socials2">
                 <a href="https://www.instagram.com/tejasanand_/">
                   <Image
