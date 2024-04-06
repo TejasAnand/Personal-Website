@@ -8,6 +8,12 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
+
 import Image from "next/image";
 
 import pythonSvg from "@/public/python2.svg";
@@ -30,7 +36,7 @@ import redis from "@/public/redis.svg";
 export default function Skills() {
   return (
     <Table>
-      <TableCaption>A list of your recent invoices.</TableCaption>
+      <TableCaption>A list of tech I&apos;ve learnt to use</TableCaption>
       <TableHeader>
         <TableRow>
           <TableHead className="w-[100px]">Categories</TableHead>
