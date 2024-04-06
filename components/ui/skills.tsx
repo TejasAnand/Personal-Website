@@ -57,10 +57,10 @@ export default function Skills() {
             <Image
               src={typescriptSvg}
               alt="Typescript"
-              height={35}
-              width={35}
+              height={40}
+              width={40}
             ></Image>
-            <Image src={csvg} alt="C" height={35} width={35}></Image>
+            <Image src={csvg} alt="C" height={40} width={40}></Image>
             <Image src={perlSvg} alt="Perl" height={40} width={40}></Image>
           </TableCell>
         </TableRow>
