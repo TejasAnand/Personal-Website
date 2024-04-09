@@ -57,7 +57,7 @@ export default function Home() {
             >
               Sun Life
             </a>{" "}
-            as a cloud engineering intern
+            as a cloud solutions intern
           </p>
           <br className="dynamic-breakpoint"></br>
 
@@ -91,7 +91,7 @@ export default function Home() {
           width={80}
           height={80}
           title="Sun Life"
-          description="Cloud Engineering"
+          description="Cloud Solutions"
           iconStyle="icon"
         />
         <ExperienceComponent
