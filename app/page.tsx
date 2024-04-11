@@ -140,7 +140,7 @@ export default function Home() {
         <div className="allProjects">
           <ProjectCardComponent
             name="colorcal"
-            url="https://github.com/alakhpc/colorcal"
+            url="https://github.com/alakhpc/colorcal_"
             icon={colorcalIcon}
             description="Automatically color codes your google calendar events. Uses Gemini API to decide categories"
           ></ProjectCardComponent>
