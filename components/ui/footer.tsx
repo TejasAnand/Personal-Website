@@ -2,16 +2,18 @@ import Image from "next/image";
 import instagramIcon from "@/public/instagram.svg";
 import githubIcon from "@/public/github.svg";
 import mailIcon from "@/public/mail.svg";
+import Link from "next/link";
 
 export default function Footer() {
   return (
     <div className="footerContainer">
       <h1 className="footerText">Stay obsessed</h1>
       <div className="socials">
-        <a
-          rel="noopener noreferrer"
+        <Link
+          // rel="noopener noreferrer"
           target="_blank"
           href="https://www.instagram.com/tejasanand_/"
+          passHref
         >
           <Image
             className="insta"
@@ -20,10 +22,10 @@ export default function Footer() {
             width={96}
             height={96}
           ></Image>
-        </a>
-        <a
-          rel="noopener noreferrer"
+        </Link>
+        <Link
           target="_blank"
+          // rel="noopener noreferrer"
           href="https://github.com/tejasanand"
         >
           <Image
@@ -33,8 +35,8 @@ export default function Footer() {
             width={64}
             height={64}
           ></Image>
-        </a>
-        <a
+        </Link>
+        <Link
           rel="noopener noreferrer"
           target="_blank"
           href="mailto:tsanand@uwaterloo.ca"
@@ -46,7 +48,7 @@ export default function Footer() {
             width={64}
             height={64}
           ></Image>
-        </a>
+        </Link>
       </div>
     </div>
   );
