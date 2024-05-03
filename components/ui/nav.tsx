@@ -31,7 +31,7 @@ export default function Nav() {
         </NavigationMenuItem>
         <NavigationMenuItem>
           <Link
-            href="https://drive.google.com/file/d/1vmVPHy8rCxv6HUaeoQKfNMK_fY125Re5/view?usp=sharing"
+            href="https://drive.google.com/file/d/1BVsF6DLDscTFHPFswd2y0m0scSCr7dUJ/view?usp=sharing"
             legacyBehavior
             passHref
           >
