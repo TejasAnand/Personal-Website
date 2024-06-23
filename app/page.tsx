@@ -38,12 +38,12 @@ export default function Home() {
         <ModeToggle></ModeToggle>
       </div>
 
-      <nav className="navbar">
+      {/* <nav className="navbar">
         <Nav></Nav>
-      </nav>
+      </nav> */}
       <div className="container">
         <div className="intro">
-          <h1 className="header text-3xl text-violet-400 ">
+          <h1 className="header text-6xl text-violet-400 text-left">
             <b>Tejas Anand</b>
           </h1>
           <p>
