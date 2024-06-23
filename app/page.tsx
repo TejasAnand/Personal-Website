@@ -91,7 +91,7 @@ export default function Home() {
           width={80}
           height={80}
           title="Sun Life"
-          description="Cloud Solutions"
+          description="Software Engineer"
           iconStyle="icon"
         />
         <ExperienceComponent
